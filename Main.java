@@ -12,7 +12,7 @@ class Inventory {
     value = price;
   }
   public void Print(){
-    System.out.println(name + ", " + serialNumber + ", " +  value);
+    System.out.println(name + "," + serialNumber + "," +  value);
   }
   public String getSN(){
     return serialNumber;
